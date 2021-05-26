@@ -66,6 +66,6 @@ public class Tests {
         $("[name='login']").setValue(data.getLogin());
         $("[name='password'").setValue(data.getPassword());
         $("[data-test-id='action-login']").click();
-        $(withText("Неверно указан логин или паро1ль")).waitUntil(Condition.visible, 3000);
+        $(withText("Неверно указан логин или пароль")).waitUntil(Condition.visible, 3000);
     }
 }
